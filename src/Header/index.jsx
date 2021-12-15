@@ -12,6 +12,7 @@ export function Header() {
                 <img src={logo} alt='logo' id='logo'></img>
             </div>
             <Burger />
+
         </nav>
     )
 }

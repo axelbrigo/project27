@@ -1,0 +1,37 @@
+.background-img {
+   background-image: url(../Img/background-wallpapper.jpg);
+   background-repeat: no-repeat;
+   background-size: cover;
+   background-position: center;
+   background-attachment: fixed;
+   width: 100%;
+   display: flex;
+   padding: 100px;
+   flex-direction: column;
+   justify-content: center;
+   font-family: 'Audiowide', cursive;
+   align-items: center;
+   gap: 50px;
+   color: white;
+  
+   text-align: center;
+   
+}
+
+.background-img h4  {
+    color: white;
+    font-size: 1.3em;
+    
+}
+
+.background-img p{
+    font-size: 2em;
+    
+}
+
+.background-img img {
+    width: 150px;
+}
+
+
+

@@ -2,6 +2,9 @@ body {
     background-image: url('./Img/mario.png');
     background-size: cover;
     background-repeat: no-repeat;
+  
+    background-position: center;
+   background-attachment: fixed;
     height: 100vh;
     width: 100vw;
     display: flex;
@@ -11,9 +14,6 @@ body {
 }
 
 #root {
-    width: 80%;
-    height: auto;
-    display: flex;
-    justify-content: center;
-    margin: auto;
+    width: 100%;
+    
 }

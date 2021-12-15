@@ -8,7 +8,7 @@ const StyledBurger = styled.div`
     height: 2rem;
     position: fixed;
     top:15px;
-    right:40px;
+   right:15%;
     z-index:20;
     display: none;
 
@@ -25,6 +25,7 @@ const StyledBurger = styled.div`
         border-radius:10px;
         transform-origin:1px;
         transition : all 0.3s linear;
+     
 
         &:nth-child(1) {
         transform: ${({ open }) => open ? 'rotate(45deg)' : 'rotate(0)'};
