@@ -1,5 +1,6 @@
 import React from 'react'
 import './background.css'
+import BasicTabs from './Burgers/Burgers'
 
 
 
@@ -11,14 +12,8 @@ const Playstation = () => {
     return (
         <>
             <div className='section-playstation'>
+                <BasicTabs></BasicTabs>
 
-                <div>
-                    <p>BURGERS</p>
-                    <p>SIDES & EXTRAS</p>
-                    <p>EXTRA STUFF</p>
-                    <p>DRINKS</p>
-                </div>
-                <div></div>
 
             </div>
 
