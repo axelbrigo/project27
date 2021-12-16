@@ -22,6 +22,7 @@ const Ul = styled.ul`
   @media (max-width: 768px) {
     flex-flow: column nowrap;
     background-color: #fff;
+
     position: fixed;
     transform: ${({ open }) => open ? 'translateX(0)' : 'translateX(100%)'};
     top: 0;
@@ -51,7 +52,7 @@ const RightNav = ({ open }) => {
         <a href='#logo'>CONTACT US</a>
       </Ul>
 
-    </div >
+    </div>
 
 
   )

@@ -51,15 +51,15 @@ export default function BasicTabs() {
 
     return (
         <Box sx={{ width: '100%' }} >
-            <Box sx={{ marginLeft: 2, marginRight: -15 }}  >
-                <Tabs value={value} onChange={handleChange}  >
+            <Box sx={{ marginRight: 10 }}  >
+                <Tabs className='style__tab--menu' value={value} onChange={handleChange}  >
                     <Tab label="BURGERS" {...a11yProps(0)} />
                     <Tab label="SIDES & EXTRAS" {...a11yProps(1)} />
                     <Tab label="EXTRA STUFF" {...a11yProps(2)} />
                     <Tab label="DRINKS" {...a11yProps(3)} />
                 </Tabs>
             </Box>
-            <TabPanel value={value} index={0}>
+            <TabPanel className="style__tab" value={value} index={0} >
                 <div className='section__menu'>
                     <div>
                         <h4>MARIO</h4>
@@ -126,7 +126,7 @@ export default function BasicTabs() {
                     </div>
                 </div>
             </TabPanel>
-            <TabPanel value={value} index={1}>
+            <TabPanel className="style__tab" value={value} index={1}>
                 <div className='section__menu'>
                     <div>
                         <h4>POTATO FRIES (POMMES FRITES)</h4>
@@ -163,7 +163,7 @@ export default function BasicTabs() {
                     </div>
                 </div>
             </TabPanel>
-            <TabPanel value={value} index={2}>
+            <TabPanel className="style__tab" value={value} index={2}>
                 <div className='section__menu'>
                     <div>
                         <h4>EXTRA BURGER (+150 G)</h4>
@@ -216,7 +216,7 @@ export default function BasicTabs() {
                     </div>
                 </div>
             </TabPanel>
-            <TabPanel value={value} index={3}>
+            <TabPanel className="style__tab" value={value} index={3}>
                 <div className='section__menu'>
                     <div>
                         <h4>FRITZ-KOLA</h4>

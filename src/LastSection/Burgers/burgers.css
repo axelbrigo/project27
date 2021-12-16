@@ -9,9 +9,49 @@
     margin-top: 20px;
 }
 
+.section_menu div {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
 .section__menu h4 {
     font-weight: bold;
     font-size: 1em;
+   
+}
+
+.style__tab {
+    margin-right: 40px;
+}
+
+
+#simple-tab-0 {
+    color: rgb(102, 4, 4);
+    font-family: 'Press Start 2P', cursive;
+    
+}
+#simple-tab-1 {
+    color: rgb(102, 4, 4);
+    font-family: 'Press Start 2P', cursive;
+}
+
+#simple-tab-2 {
+    color: rgb(102, 4, 4);
+    font-family: 'Press Start 2P', cursive;
+    padding: 0;
+}
+
+#simple-tab-3 {
+    color: rgb(102, 4, 4);
+    font-family: 'Press Start 2P', cursive;
+    
+}
+
+
+
+.css-1aquho2-MuiTabs-indicator {
+border:1px solid rgb(102, 4, 4);
 }
 
 .section__menu p {
@@ -24,19 +64,45 @@ font-size: 1.125em;
 }
 
 
-@media (max-width: 768px) {
+@media (max-width: 950px) {
 
     .MuiTabs-flexContainer{
         display: flex;
         flex-wrap: wrap;
         width: 100%;
         justify-content: center;
-        padding-right: 120px;
         z-index: 1;
       
     }
-    
+}
 
- 
+@media (max-width: 400px) {
+
+
+    
+    #simple-tab-0 {
+        color: rgb(102, 4, 4);
+        font-family: 'Press Start 2P', cursive;
+        width: 100%;
+    }
+    #simple-tab-1 {
+        color: rgb(102, 4, 4);
+        font-family: 'Press Start 2P', cursive;
+        width: 100%;
+    }
+
+    
+    #simple-tab-2 {
+        color: rgb(102, 4, 4);
+        font-family: 'Press Start 2P', cursive;
+        width: 100%;
+    }
+
+    
+    #simple-tab-3 {
+        color: rgb(102, 4, 4);
+        font-family: 'Press Start 2P', cursive;
+        width: 100%;
+    }
 }
 

@@ -1,0 +1,112 @@
+.section-playstation3{
+    background-image: url(../Img/playstation.png);
+    padding-top: 100px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+    align-items: center;
+    justify-items: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.section__img--food {
+    width: 80%;
+
+}
+
+.section__img--food img {
+    width: 100%;
+}
+
+.section__p--food {
+    width: 80%;
+    
+}
+
+.section__p--food2 {
+    width: 80%;
+  
+ 
+}
+
+.p__ttitle {
+    font-weight: bold;
+    font-size: 23px;
+    line-height: 30px;
+}
+
+.section__p--food2 p {
+    font-size: 15px;
+    line-height: 25px;
+    letter-spacing: 2px;
+}
+
+.section__p--food2 a{
+    text-decoration: none;
+}
+.section__p--food p {
+    font-size: 15px;
+    line-height: 30px;
+}
+
+.section__img--last1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    width: 50%;
+    gap: 25px;
+}
+
+.section__img--last1 img {
+    width: 50px;
+}
+
+.section__img--last2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    width: 50%;
+    gap: 25px;
+    margin-top: 30px;
+}
+
+.section__img--last2 img {
+    width: 50px;
+}
+
+
+@media (max-width: 750px){
+    .section-playstation3 {
+        display: grid;
+        grid-template-columns: 1fr;
+        
+    }
+
+    .section__p--food p {
+        font-size: 13px;
+        line-height: 30px;
+        text-align: center;
+      
+    }
+
+    .section__p--food2 p {
+        font-size: 13px;
+        line-height: 30px;
+        text-align: center;
+      
+    }
+
+
+    .last_word {
+        
+      border-bottom: 5px solid black;
+    }
+    
+    
+}
+

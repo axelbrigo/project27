@@ -8,14 +8,16 @@ const StyledBurger = styled.div`
     height: 2rem;
     position: fixed;
     top:15px;
-   right:15%;
-    z-index:20;
+    right:90px;
+    z-index:0;
     display: none;
+   
 
     @media (max-width: 768px) {
         display:flex;
     justify-content:space-around;
     flex-flow: column nowrap;
+    z-index: 1;
     }
 
     div {
@@ -25,6 +27,8 @@ const StyledBurger = styled.div`
         border-radius:10px;
         transform-origin:1px;
         transition : all 0.3s linear;
+    
+        
      
 
         &:nth-child(1) {
