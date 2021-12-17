@@ -10,7 +10,7 @@ const Footer = () => {
 
 
     return (
-        <div className='footer'>
+        <div id='contact' className='footer'>
             <div className='footer__left'>
                 <p>WEBLØSNING AV ADLEVO</p>
             </div>

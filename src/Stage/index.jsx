@@ -10,7 +10,7 @@ const Stage = () => {
 
     return (
         <>
-            <div className='background-img'>
+            <div id='home' className='background-img'>
 
                 <h4>THE ONLY BURGER IN TOWN</h4>
                 <p>BURGER</p>

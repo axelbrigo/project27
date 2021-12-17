@@ -4,14 +4,16 @@
     height: 70px;
     display: flex;
     justify-content:space-between ;
-    position: sticky;
-    top: 0;
+    position:sticky;
     z-index: 1;
+    top: 0;
+    
     
 }
 
 .nav a {
    margin-right: 8px;
+
     
 }
 

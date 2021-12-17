@@ -1,3 +1,4 @@
+
 body {
     background-image: url('./Img/mario.png');
     background-size: cover;
@@ -10,11 +11,22 @@ body {
     display: flex;
     justify-items: center;
     font-family: 'Press Start 2P', cursive;
-  
+
+    overflow-x: hidden;
 }
 
 #root {
-    width: 100%;
-  overflow-x: hidden;
+
+
+  min-height: 100vh;
+  display: flex;
+  width: 80%;
+ justify-content: center;
+ flex-direction: column;
+ margin: auto;
+
+        
     
+    
+  
 }

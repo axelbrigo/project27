@@ -52,7 +52,7 @@ export default function BasicTabs() {
     return (
         <Box sx={{ width: '100%' }} >
             <Box sx={{ marginRight: 10 }}  >
-                <Tabs className='style__tab--menu' value={value} onChange={handleChange}  >
+                <Tabs id='menu' className='style__tab--menu' value={value} onChange={handleChange}  >
                     <Tab label="BURGERS" {...a11yProps(0)} />
                     <Tab label="SIDES & EXTRAS" {...a11yProps(1)} />
                     <Tab label="EXTRA STUFF" {...a11yProps(2)} />

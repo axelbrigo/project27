@@ -9,11 +9,15 @@ const Ul = styled.ul`
   display: flex;
   flex-flow: row nowrap;
   margin-left:80px;
+  
+  
   a {
     padding:5px;
     text-decoration:none;
     color:black;
     padding-top: 25px;
+    font-size:0.8em;
+  
     
     
   }
@@ -22,7 +26,6 @@ const Ul = styled.ul`
   @media (max-width: 768px) {
     flex-flow: column nowrap;
     background-color: #fff;
-
     position: fixed;
     transform: ${({ open }) => open ? 'translateX(0)' : 'translateX(100%)'};
     top: 0;
@@ -45,11 +48,11 @@ const RightNav = ({ open }) => {
 
     <div className='div-container'>
       <Ul open={open}>
-        <a href='#logo'>HOME</a>
-        <a href='#logo'>MENU</a>
-        <a href='#logo'>ABOUT BURGER</a>
-        <a href='#logo'>GIFT CARD</a>
-        <a href='#logo'>CONTACT US</a>
+        <a href='/'>HOME</a>
+        <a href='/menu'>MENU</a>
+        <a href='/about'>ABOUT BURGER</a>
+        <a href='/register'>REGISTER FOR OFFERS</a>
+        <a href='#contact'>CONTACT US</a>
       </Ul>
 
     </div>

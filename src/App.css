@@ -2,16 +2,7 @@
   text-align: center;
 
 }
-.medida {
-  min-height: 100vh;
-  display: flex;
-  width: 80%;
- display: flex;
- justify-content: center;
- flex-direction: column;
- margin: auto;
-  
-}
+
 
 .App-logo {
   height: 40vmin;

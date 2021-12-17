@@ -13,7 +13,7 @@ const Playstation3 = () => {
 
 
     return (
-        <>
+        <div id='about'>
             <div className='section-playstation3'>
                 <div className='section__img--food'>
                     <img src={pictureburger} alt="burger"></img>
@@ -69,7 +69,7 @@ const Playstation3 = () => {
 
             </div>
 
-        </>
+        </div >
     )
 }
 
