@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/restaurantRetro/static/css/main.bef8ab20.css",
+    "main.js": "/restaurantRetro/static/js/main.b8a046b9.js",
+    "static/js/787.5c3fa0d8.chunk.js": "/restaurantRetro/static/js/787.5c3fa0d8.chunk.js",
+    "static/media/logo-t.png": "/restaurantRetro/static/media/logo-t.9e8bb3df7c40d6f51613.png",
+    "static/media/burguer3.jpg": "/restaurantRetro/static/media/burguer3.e8a65430fc34fda8c3d2.jpg",
+    "static/media/burguer2.jpg": "/restaurantRetro/static/media/burguer2.5d6d17a62dab0d6dca4c.jpg",
+    "static/media/winner1.png": "/restaurantRetro/static/media/winner1.58612b6ad3632bcfc2a6.png",
+    "static/media/img-burger.png": "/restaurantRetro/static/media/img-burger.8b284196981572276a0a.png",
+    "static/media/background-wallpapper.jpg": "/restaurantRetro/static/media/background-wallpapper.32b7ab06a1622ace50d7.jpg",
+    "static/media/instagram.png": "/restaurantRetro/static/media/instagram.5b772e0449905a55c353.png",
+    "static/media/playstation.png": "/restaurantRetro/static/media/playstation.6bdec06a04941c2f4d1e.png",
+    "static/media/winner2.png": "/restaurantRetro/static/media/winner2.8426efa380e5dfd00813.png",
+    "index.html": "/restaurantRetro/index.html",
+    "main.bef8ab20.css.map": "/restaurantRetro/static/css/main.bef8ab20.css.map",
+    "main.b8a046b9.js.map": "/restaurantRetro/static/js/main.b8a046b9.js.map",
+    "787.5c3fa0d8.chunk.js.map": "/restaurantRetro/static/js/787.5c3fa0d8.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.bef8ab20.css",
+    "static/js/main.b8a046b9.js"
+  ]
+}
